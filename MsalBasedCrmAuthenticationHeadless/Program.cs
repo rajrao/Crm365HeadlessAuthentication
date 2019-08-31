@@ -12,6 +12,9 @@
         {
             var crmBaseUrl = "https://xxxxxxxx.crm.dynamics.com/";
             var tenantId = "00000000-0000-0000-0000-000000000000";
+            //see https://blog.aggregatedintelligence.com/2017/02/headless-authentication-against-crm-365.html 
+            //on getting applicationId and client secret
+
             string applicationId = "00000000-0000-0000-0000-000000000000";
             string clientSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=";
 
