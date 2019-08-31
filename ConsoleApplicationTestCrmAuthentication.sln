@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTestCrmAuthentication", "ConsoleApplicationTestCrmAuthentication\ConsoleApplicationTestCrmAuthentication.csproj", "{1822484C-C52C-427C-B7C0-37905A47C923}"
 EndProject
@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsalBasedCrmAuthenticationHeadless101", "MsalBasedCrmAuthenticationHeadless\MsalBasedCrmAuthenticationHeadless101.csproj", "{F406A0A1-14A7-4F74-87B8-559DEA1E436D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{1822484C-C52C-427C-B7C0-37905A47C923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1822484C-C52C-427C-B7C0-37905A47C923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1822484C-C52C-427C-B7C0-37905A47C923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F406A0A1-14A7-4F74-87B8-559DEA1E436D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F406A0A1-14A7-4F74-87B8-559DEA1E436D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F406A0A1-14A7-4F74-87B8-559DEA1E436D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F406A0A1-14A7-4F74-87B8-559DEA1E436D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5013B0E-5A74-4161-8EAC-B66C7AA2130C}
 	EndGlobalSection
 EndGlobal
